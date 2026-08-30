@@ -69,11 +69,12 @@ export const projects: Project[] = [
 
 export const contributions = [
   {
-    project: "DoldFind Admin",
+    project: "javascript.info",
     description:
-      "Contributed to the admin panel: Appwrite place schemas, image metadata auto-retrieval, image compression, creative-commons attribution, and schema-validation fixes shipped via merged PRs.",
-    url: "https://github.com/swapnasahoo/doldfind-admin",
+      "Merged a small docs fix in the Modern JavaScript Tutorial (en): terminology cleanup replacing \"figure brackets\" with \"curly braces\" in two chapters.",
+    url: "https://github.com/javascript-tutorial/en.javascript.info/pull/3936",
   },
 ];
 
-export const about = `I write software that actually runs on a phone, on a server, or in a browser. Most of my time goes into mobile apps built with React Native and Expo, backed by Appwrite for auth, data and storage. I also work on the web with Next.js, TypeScript and Supabase when the problem is better solved there. I care about clean UI, real auth flows, and code that does not fall apart when a user touches it.` as const;
+export const about =
+  `I write software that actually runs on a phone, on a server, or in a browser. Most of my time goes into mobile apps built with React Native and Expo, backed by Appwrite for auth, data and storage. I also work on the web with Next.js, TypeScript and Supabase when the problem is better solved there. I care about clean UI, real auth flows, and code that does not fall apart when a user touches it.` as const;
