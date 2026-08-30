@@ -2,13 +2,13 @@ import { projects } from "@/lib/content";
 
 export function Work() {
   return (
-    <section id="work" aria-labelledby="work-heading" className="mx-auto max-w-2xl px-6 py-16 sm:py-20">
+    <section id="work" aria-labelledby="work-heading" className="mx-auto max-w-2xl px-6 py-10 sm:py-12">
       <h2 id="work-heading" className="eyebrow">
         Selected work
       </h2>
-      <ol className="mt-8 divide-y" style={{ borderColor: "var(--line)" }}>
+      <ol className="mt-6 divide-y" style={{ borderColor: "var(--line)" }}>
         {projects.map((p) => (
-          <li key={p.name} className="py-6">
+          <li key={p.name} className="py-5">
             <article className="grid grid-cols-1 gap-1 sm:grid-cols-[8rem_1fr] sm:gap-8">
               <div className="text-sm text-[var(--ink-mute)]">{p.year}</div>
               <div>
@@ -50,7 +50,7 @@ export function Work() {
           </li>
         ))}
       </ol>
-      <p className="mt-8 text-sm text-[var(--ink-mute)]">
+      <p className="mt-6 text-sm text-[var(--ink-mute)]">
         <a
           href="https://github.com/swapnasahoo?tab=repositories"
           className="link"
