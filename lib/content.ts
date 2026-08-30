@@ -1,7 +1,7 @@
 export const site = {
   name: "Swapna Sahoo",
   handle: "swapnasahoo",
-  url: "https://swapnasahoo.dev",
+  url: "https://swapnasahoo.site",
   email: "sahooswapnaswarup@gmail.com",
   github: "https://github.com/swapnasahoo",
   location: "India",
@@ -71,7 +71,7 @@ export const contributions = [
   {
     project: "javascript.info",
     description:
-      "Merged a small docs fix in the Modern JavaScript Tutorial (en): terminology cleanup replacing \"figure brackets\" with \"curly braces\" in two chapters.",
+      'Merged a small docs fix in the Modern JavaScript Tutorial (en): terminology cleanup replacing "figure brackets" with "curly braces" in two chapters.',
     url: "https://github.com/javascript-tutorial/en.javascript.info/pull/3936",
   },
 ];
