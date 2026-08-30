@@ -5,7 +5,7 @@ export function Contact() {
     <section
       id="contact"
       aria-labelledby="contact-heading"
-      className="mx-auto max-w-2xl px-6 py-10 sm:py-12"
+      className="mx-auto max-w-2xl px-6"
     >
       <h2 id="contact-heading" className="eyebrow">
         Contact
