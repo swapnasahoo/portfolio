@@ -21,6 +21,7 @@ export const site = {
     "Tailwind CSS",
     "Node.js",
   ],
+  knowsLanguage: ["en", "hi"],
 } as const;
 
 export const hero = {

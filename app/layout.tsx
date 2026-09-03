@@ -90,6 +90,7 @@ const jsonLd = {
     name: site.location.name,
   },
   knowsAbout: site.knowsAbout,
+  knowsLanguage: site.knowsLanguage,
   sameAs: [site.github],
 };
 
