@@ -44,11 +44,20 @@ export const metadata: Metadata = {
     firstName: "Swapna",
     lastName: "Sahoo",
     username: site.handle,
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: titleDefault,
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: titleDefault,
     description,
+    images: ["/og.png"],
   },
   robots: { index: true, follow: true },
 };
