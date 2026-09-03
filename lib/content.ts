@@ -78,3 +78,22 @@ export const contributions = [
 
 export const about =
   `I write software that actually runs on a phone, on a server, or in a browser. Most of my time goes into mobile apps built with React Native and Expo, backed by Appwrite for auth, data and storage. I also work on the web with Next.js, TypeScript and Supabase when the problem is better solved there. I care about clean UI, real auth flows, and code that does not fall apart when a user touches it.` as const;
+
+export type Skill = {
+  name: string;
+  slug: string;
+};
+
+export const skills: Skill[] = [
+  { name: "JavaScript", slug: "javascript" },
+  { name: "TypeScript", slug: "typescript" },
+  { name: "React", slug: "react" },
+  { name: "React Native", slug: "react" },
+  { name: "Expo", slug: "expo" },
+  { name: "Appwrite", slug: "appwrite" },
+  { name: "Node.js", slug: "nodedotjs" },
+  { name: "Tailwind CSS", slug: "tailwindcss" },
+  { name: "HTML5", slug: "html5" },
+  { name: "CSS3", slug: "css" },
+  { name: "Git", slug: "git" },
+];
