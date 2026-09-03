@@ -91,7 +91,6 @@ const jsonLd = {
   },
   knowsAbout: site.knowsAbout,
   sameAs: [site.github],
-  nationalIdentifier: site.handle,
 };
 
 export default function RootLayout({
