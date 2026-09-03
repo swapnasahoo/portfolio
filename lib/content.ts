@@ -1,10 +1,26 @@
 export const site = {
   name: "Swapna Sahoo",
   handle: "swapnasahoo",
+  alternateNames: ["Swapna Sahoo", "SwapnaSahoo", "swapnasahoo", "Swapna Swarup Sahoo"],
+  jobTitle: "React Native & Next.js Developer",
   url: "https://swapnasahoo.site",
   email: "sahooswapnaswarup@gmail.com",
   github: "https://github.com/swapnasahoo",
-  location: "India",
+  location: {
+    name: "India",
+    country: "IN",
+  },
+  knowsAbout: [
+    "React Native",
+    "Expo",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Appwrite",
+    "Supabase",
+    "Tailwind CSS",
+    "Node.js",
+  ],
 } as const;
 
 export const hero = {
