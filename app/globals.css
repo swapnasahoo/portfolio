@@ -97,3 +97,92 @@ a {
   text-transform: uppercase;
   color: var(--ink-mute);
 }
+
+.prose-custom {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+
+.prose-custom > * + * {
+  margin-top: 1.25em;
+}
+
+.prose-custom h2,
+.prose-custom h3 {
+  color: var(--ink);
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.prose-custom h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.prose-custom h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.prose-custom a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.prose-custom a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.prose-custom strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.prose-custom code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+.prose-custom pre {
+  font-family: var(--font-mono);
+  color: var(--ink);
+}
+
+.prose-custom img {
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  margin: 2em 0;
+}
+
+.prose-custom table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.prose-custom th,
+.prose-custom td {
+  border: 1px solid var(--line);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+.prose-custom th {
+  background: var(--bg-soft);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.prose-custom .heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+.prose-custom .heading-anchor:hover {
+  text-decoration: underline;
+}

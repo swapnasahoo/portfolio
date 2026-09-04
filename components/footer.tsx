@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/lib/content";
 
 export function Footer() {
@@ -8,6 +9,16 @@ export function Footer() {
           {site.name} · {new Date().getFullYear()}
         </span>
         <ul className="flex gap-5">
+          <li>
+            <Link href="/blog" className="link">
+              Writing
+            </Link>
+          </li>
+          <li>
+            <a href="/rss.xml" className="link" rel="alternate" type="application/rss+xml">
+              RSS
+            </a>
+          </li>
           <li>
             <a href={site.github} className="link" rel="noreferrer noopener">
               GitHub

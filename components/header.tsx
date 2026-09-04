@@ -19,6 +19,11 @@ export function Header() {
             </Link>
           </li>
           <li>
+            <Link href="/blog" className="link text-[var(--ink-mute)] hover:text-[var(--ink)]">
+              Writing
+            </Link>
+          </li>
+          <li>
             <a
               href={site.github}
               className="link text-[var(--ink-mute)] hover:text-[var(--ink)]"
